@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    font-family: Roboto;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    height: 100%;
+  }
+
+body {
+    padding: 1rem;
+    min-height: 100%;
+  }
+
+div .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10%;
+    font-size: 3rem;
+}
+
+a {
+    color: white;
+}
+
+.nav-pills .nav-link {
+      background-color: #007bff;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      margin: 5%;
+      text-align: center;
+      text-decoration: none;
+      height: 60px;
+      border-radius: 5px;
+      width: 80%;
+
+  }
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: #000;
+}
+
+a:after {
+    transition: all 0.35s;
+}
+
+a:hover {
+    color: #fff;
+}
